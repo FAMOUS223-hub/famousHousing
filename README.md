@@ -1,2 +1,2 @@
-# famousHousing
-a landing page for Famous Housing and Apartment that sells and rents apartments and houses
+# myRepo
+My first html and css code
