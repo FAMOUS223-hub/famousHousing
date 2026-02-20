@@ -1,11 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 html{
     font-size: 85%;
-}
-
-.primaryNav{
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.459);
-    backdrop-filter: blur(30px);
 }
 
 .heroSection{
@@ -16,67 +13,105 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     overflow: hidden;
-    padding: 3rem;
-    margin-right: 0;
     z-index: 0;
+    margin-bottom: 4rem;
+
 }
 
 .heroInfo{
-    position: absolute;
-    top: 32%;
     color: white;
-    width: 50%;
+    width: 80%;
+    padding: 3rem;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: solid 2px rgba(255, 255, 255, 0.295);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.37);
+    
 }
 
 .heroInfo .introP{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .heroInfo p{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    
 }
 
 .heroInfo h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6rem;
+    font-size: 4rem;
     color: orange;
     font-weight:bold;
     margin-top: -1rem;
 }
 
-.heroInfo .btn{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    width: 20rem;
-    transition: ease-in-out 3s;
- 
-}
-.heroInfo .btn a:hover{
-    background-color: rgb(255, 187, 61);
+.bodyImages{
+    text-align: center;
+    padding: 3rem;
 }
 
-.heroInfo .btn a{
-    background-color: orange;
-    height: 3rem;
-    width: 12rem;
+.bodyImages .images{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    text-decoration: none;
-    border: none;
-    border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: white;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
 
+.bodyImages h1{
+    font-size: 4rem;
+}
+
+.bodyImages img{
+    height: 20rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 144rem){
+    html{
+        font-size: 80%;
+    }
+     .bodyImages .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: 102.4rem){
+    htm{
+        font-size: 50%;
+
+    }
+   
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 40%;
+    }
+
+    .heroInfo h1{
+        font-size: 6rem;
+    }
+
+    .primaryNav ul{
+        display: none;
+    }
+    
+        
+    
 }
