@@ -1,0 +1,95 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+html{
+    font-size: 85%;
+}
+
+.primaryNav{
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem; 
+    z-index: 1;
+    width: 100%;
+ 
+    
+
+}
+
+.companyDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    align-items: center;
+    color: rgb(0, 90, 20);
+    margin-left: 4rem;
+}
+
+
+
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.navItems ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    transition: ease 0.3s;
+  
+}
+
+.navItems li{
+    list-style: none;
+    
+}
+
+.navItems ul li a:focus, .navItems ul li a:hover{
+    background-color: orange;
+} 
+
+.navItems a{
+    text-decoration: none;
+      color: black;
+      padding: 0.7rem;
+      border-radius: 0.5rem;
+      transition: 0.5s;
+   
+}
+
+.navItems ul button{
+    background-color: rgb(255, 145, 0);
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    transition: ease-in-out 0.2s;
+}
+.navItems ul button a{
+    color: white;
+}
+
+.navItems ul button:hover{
+    background-color: rgb(0, 0, 75);
+}
