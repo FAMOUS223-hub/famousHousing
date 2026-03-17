@@ -1,0 +1,44 @@
+
+@media (max-width: 144rem){
+    html{
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 102.4rem){
+    html{
+        font-size: 60%;
+
+    }
+    
+}
+
+@media(min-width:76.9rem) and (max-width: 102.3rem){
+    html{
+        font-size: 64%;
+    }
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 55%;
+    }
+    .callBtn{
+        display: none;
+    }
+  
+
+}
+@media(max-width: 30rem){
+    html{
+        font-size: 45%;
+    }
+
+
+}
+@media (max-width: 22.5rem){
+    html{
+        font-size: 35%;
+    }
+}
+

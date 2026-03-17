@@ -1,0 +1,70 @@
+
+@media (max-width: 144rem){
+    html{
+        font-size: 85%;
+    }
+
+}
+
+@media (max-width: 102.4rem){
+    html{
+        font-size: 60%;
+
+    }
+
+    .heroInfo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 40%;
+    }
+
+    .heroInfo{
+    display: block;
+    justify-content: center;
+    }
+
+    .heroSection{
+        height: auto;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .text h1{
+        font-size: 6rem;
+    }
+
+    .hero{
+        height: auto;
+        
+    }
+
+    #contact{
+        display: block;
+        gap: 2rem;
+    }
+
+}
+
+
+@media(max-width: 30rem){
+    html{
+        font-size: 45rem;
+    }
+
+
+}
+@media (max-width: 22.5rem){
+    html{
+        font-size: 40%;
+    }
+}

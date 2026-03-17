@@ -1,0 +1,62 @@
+
+@media (max-width: 144rem){
+    html{
+        font-size: 70%;
+    }
+}
+
+
+
+
+@media (max-width: 102.4rem){
+    html{
+        font-size: 65%;
+
+    }
+    
+}
+   
+
+
+@media(max-width: 60rem){
+    html{
+        font-size: 50%;
+    }
+
+    .houseOne{
+        grid-template-columns: 1fr;
+    }
+
+    .images img{
+        margin-left: 0;
+    }
+    
+    .crossOver{
+        height: 50vh;
+    }
+
+    .borderImage{
+        height: 50vh;
+    }
+
+    .hero{
+        height: 60vh;
+    }
+
+    .heroSection{
+        height: auto;
+    }
+}
+
+@media(max-width: 30rem){
+    html{
+        font-size: 45%;
+    }
+
+
+}
+@media (max-width: 22.5rem){
+    html{
+        font-size: 40%;
+    }
+}

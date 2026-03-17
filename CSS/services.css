@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+html{
+    font-size: 80%;
+}
+
+.heroSection{
+    background-image: url(/Images/servicehero.JPG);
+    background-color: rgba(0, 0, 0, 0.473);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  
+}
+
+.heroSectionInfo{
+    width:auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(05px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 4rem;
+  
+}
+
+.heroSectionInfo h3{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.heroSecData p{
+    font-size: 1.5rem;
+    margin-bottom: auto;
+}
+
+.bar{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.171);
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    border-radius: 10rem;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.bar .call{
+    height:auto;
+    width: 8rem;
+    background-color: rgba(0, 0, 0, 0.199);
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    padding: 1rem;
+    border-radius: 3rem;
+    font-weight: lighter;
+    transition: ease-in-out 0.15s;
+}
+
+.bar .call:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.barInfo .callBtn{
+    height:auto;
+    width: 10rem;
+    background-color: rgba(19, 32, 209, 0.993);
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    padding: 1rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+}
+
+.barInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.barInfo .call{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+
+.lastInfo{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(207, 205, 205, 0.329);
+
+}
+
+.lastInfoData{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    
+}
+
+
+.lastInfo .deInfo{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.lastInfo .deInfo img{
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 0.5rem;
+}
+
+.lastInfo .deInfo h1{
+    font-size: 2rem;
+    color: rgb(5, 83, 253);
+    margin-top: 1rem;
+}
+
+.lastInfo .deInfo p{
+    font-size: 1.2rem;
+    
+}
+

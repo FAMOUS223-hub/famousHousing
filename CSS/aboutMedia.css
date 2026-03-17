@@ -1,0 +1,63 @@
+
+@media (max-width: 144rem){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 102.4rem){
+    html{
+        font-size: 65%;
+
+    }
+    .dataOneInfo{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 50%;
+    }
+    .missionData{
+        display: block;
+    }
+
+    .dataOneInfo{
+        display: block;
+    }
+
+    .dataOneInfo img{
+        height: 21rem;
+    }
+    .heroSection{
+        height: 70vh;
+    }
+
+    .heroData{
+        height: 40vh;
+    }
+
+    .heroData{
+        padding: 3rem;
+    }
+
+    /* .navItems ul{
+        display: none;
+    } */
+}
+@media(max-width: 30rem){
+    html{
+        font-size: 45%;
+    }
+
+
+}
+@media (max-width: 22.5rem){
+    html{
+        font-size: 40%;
+    }
+}
+

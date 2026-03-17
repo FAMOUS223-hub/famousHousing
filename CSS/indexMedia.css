@@ -1,0 +1,102 @@
+
+@media (max-width: 144rem){
+    html{
+        font-size: 70%;
+    }
+
+    .featuredProperty{
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 102.4rem){
+    html{
+        font-size: 60%;
+
+    }
+
+    .heroDetails h1{
+        font-size: 5rem ;
+    }
+
+    
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 40%;
+    }
+
+    /* .item{
+    animation: none !important;
+    } */
+
+    .niceService{
+    animation:none !important;
+    }
+
+    .heroSection {
+        animation:none !important;
+    }
+
+
+    /* .primaryNav ul{
+        display: none;
+    } */
+
+    .heroDetails > p{
+    margin-top: 2rem;
+    }
+
+    .heroDetails h1{
+        font-size: 2rem;
+    }
+  
+
+    .featuredProperty{
+        height: auto;
+    }
+    
+    /* .link a{
+    height: 4rem;
+     width: 10rem;
+    } */
+
+    .primaryNav{
+        height: auto;
+    }
+
+    .price a{
+        font-size: 1rem;
+    }
+
+    .details{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        animation:none !important;
+    }
+}
+
+@media(max-width: 30rem){
+    html{
+        font-size: 45%;
+    }
+     .item{
+    animation: none !important;
+    }
+
+
+}
+@media (max-width: 22.5rem){
+    html{
+        font-size: 30%;
+    }
+}
+
+
+
+

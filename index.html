@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/nav.css">
-    <link rel="stylesheet" href="/indexquery.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/nav.css">
+    <link rel="stylesheet" href="/CSS/indexMedia.css">
     <title>Famous Housing & Apartment</title>
 </head>
 <body>
@@ -21,12 +21,10 @@
             <ul>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Apartments</a></li>
-                <button> <a href="#">Book Now</a></button>
+                <li><a href="/pageServices.html">Services</a></li>
+                <button> <a href="/apartment.html">Book Now</a></button>
             </ul>
         </div>
-
     
     </nav>
     </div>
@@ -41,8 +39,8 @@
             <p class="secP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quasi similique ex recusandae ducimus inventore dolores! Adipisci quidem, ut, suscipit, enim dicta soluta nihil nisi consequuntur itaque temporibus iusto officia.</p>
 
             <div class="heroBtn">
-                <button class="btn1"><a href="#">View Property</a></button>
-                <button class="btn2"><a href="#">Contact Now</a></button>
+               <a href="/contact.html" class="btn1">Contact Us</a>
+               <a href="/pageServices.html" class="btn2">Properties</a>
             </div>
         </div>
     </div>
@@ -51,10 +49,8 @@
 
     <div class="propertyTypes">
         <div class="propertyTypesDetaisl">
-            <img src="/Images/8020506.png" alt="Logo for property Types" height="30px">
-            <p>PROPERTY TYPES</p>
+            <h3>Explore Apartment Types</h3>
         </div>
-        <h3>Explore Apartment Types</h3>
 
         <div class="propertyItems">
             <div class="item">
@@ -125,7 +121,8 @@
                   <hr>
                   <div class="price">
                     <p><strong>$150,000,000</strong></p>
-                    <button><a href="#">View Property</a></button>
+
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
 
@@ -135,7 +132,7 @@
             <!-- Second Container  -->
             <div class="item">
                 <p class="rent">Rent</p>
-                <img src="/Images/housefrontview.JPG" alt="" class="profileImage">
+                <img src="/Images/HERO2.JPG" alt="" class="profileImage">
                 <h1>Mountain View Condos</h1>
                 <p class="cityInfo">New York, CA. USA</p>
                 <div class="icons">
@@ -155,7 +152,7 @@
                 <hr>
                   <div class="price">
                     <p><strong>$400,000,000 </strong></p>
-                    <button><a href="#">View Property</a></button>
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
                 
@@ -164,7 +161,7 @@
         <!-- Third Container -->
          <div class="item">
                 <p class="rent">Rent</p>
-                <img src="/Images/housefrontview.JPG" alt="" class="profileImage">
+                <img src="/Images/A1.JPG" alt="" class="profileImage">
                 <h1>Equestrian Family Home</h1>
                 <p class="cityInfo">New York, CA. USA</p>
                 <div class="icons">
@@ -185,7 +182,7 @@
                 <hr>
                   <div class="price">
                     <p><strong>$250,000,000</strong></p>
-                    <button><a href="#">View Property</a></button>
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
                 
@@ -195,7 +192,7 @@
     <!-- Fourth Container -->
          <div class="item">
                 <p class="rent">Rent</p>
-                <img src="/Images/housefrontview.JPG" alt="" class="profileImage">
+                <img src="/Images/abouthero.JPG" alt="" class="profileImage">
                 <h1>Equestrian Family Home</h1>
                 <p class="cityInfo">New York, CA. USA</p>
                 <div class="icons">
@@ -216,7 +213,7 @@
                 <hr>
                   <div class="price">
                     <p><strong>$40,000,000</strong></p>
-                    <button><a href="#">View Property</a></button>
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
                   
@@ -224,7 +221,7 @@
      <!-- Fifth Container -->
          <div class="item">
                 <p class="rent">Rent</p>
-                <img src="/Images/housefrontview.JPG" alt="" class="profileImage">
+                <img src="/Images/aboutbody.JPG" alt="" class="profileImage">
                 <h1>Equestrian Family Home</h1>
                 <p class="cityInfo">New York, CA. USA</p>
                 <div class="icons">
@@ -245,14 +242,14 @@
                 <hr>
                   <div class="price">
                     <p><strong>$200,000,000</strong></p>
-                    <button><a href="#">View Property</a></button>
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
                   </div>
                   <!-- Sixth Container -->
          <div class="item">
                 <p class="rent">Rent</p>
-                <img src="/Images/housefrontview.JPG" alt="" class="profileImage">
+                <img src="/Images/servicehero.JPG" alt="" class="profileImage">
                 <h1>Equestrian Family Home</h1>
                 <p class="cityInfo">New York, CA. USA</p>
                 <div class="icons">
@@ -273,11 +270,15 @@
                 <hr>
                   <div class="price">
                     <p><strong>$550,000,000</strong></p>
-                    <button><a href="#">View Property</a></button>
+                    <a href="/apartment.html">View Property</a>
 
                   </div>
-    
+
+                 
     </div>
+    </div>
+</div>
+
 
      <div class="niceService">
         <div class="niceServiceDetails">
@@ -285,29 +286,96 @@
         </div>
     </div>
 
-    <div class="contactUs">
-        <div class="userInfo">
-            <h2>Get in touch</h2>
-            <input type="text" placeholder="Full name" id="uname" class="userName">
+    <div class="testimonialText">
+        <p class="head">What people Say</p>
+        <p class="subhead">Discover what our satisfied customers have to say about their experience with our products / services</p>
 
-            
-            <input type="text" placeholder="Email" required id="mail" class="eMail">
-
-            
-            <textarea name="message" id="mssg"placeholder="Messgae"></textarea>
-            <div class="link">
-                
-                  <button>  <a href="#">Send</a></button>
-                
+    <section class="testimonials">
+        <div class="details">
+            <div class="card">
+            <img src="/Images/img2.jpg" alt="" class="avator">
+            <h3>Amoako Kingstin</h3>
+            <div class="rating">
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star">&#9733;</span>
             </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, cum ipsa ea incidunt quam dolorem at. Rerum sint harum, odit voluptatibus quas libero odio corporis quidem sed aperiam, dolores vitae?</p>
         </div>
-        
-    </div>
+            <div class="card">
+            <img src="/Images/P3.jpg" alt="" class="avator">
+            <h3>Williams Steve</h3>
+            <div class="rating">
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, cum ipsa ea incidunt quam dolorem at. Rerum sint harum, odit voluptatibus quas libero odio corporis quidem sed aperiam, dolores vitae?</p>
+        </div>
+            <div class="card">
+            <img src="/Images/P1.jpg" alt="" class="avator">
+            <h3>Amos Nganbe</h3>
+            <div class="rating">
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, cum ipsa ea incidunt quam dolorem at. Rerum sint harum, odit voluptatibus quas libero odio corporis quidem sed aperiam, dolores vitae?</p>
+        </div>
+            <class class="card">
+            <img src="/Images/img3.jpg" alt="" class="avator">
+            <h3>Francisca Nganbe</h3>
+            <div class="rating">
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star filled">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, cum ipsa ea incidunt quam dolorem at. Rerum sint harum, odit voluptatibus quas libero odio corporis quidem sed aperiam, dolores vitae?</p>
+        </class>
+        </div>
+        </div>
+    </section>
     </div>
 
   <footer>
-    <hr>
-    <p>&copy; FAMOUS HOUSING | 2025</p>
-</footer>
+        <div class="footerLinks">
+            <div class="primaryLinks">
+                <h3>Quick Links</h3>
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/pageServices.html"> Our Services</a>
+            </div>
+           <div class="footerIcons">
+            <div class="iconsInfo">
+                 <a href="tel:+233598109267">
+                <img src="/Images/icons8-call-50-4.png" alt="A Phone Call Icon">
+            </a>
+            <a href="https://github.com/FAMOUS223-hub/HTML">
+                <img src="/Images/icons8-github-100.png" alt="Github">
+            </a>
+           <a href="https://www.wa.me/+233598109267">
+                <img src="/Images/icons8-whatsapp-100.png" alt="WhatsApp Icon">
+            </a>
+            <a href="https://www.t.me/+233598109267">
+                <img src="/Images/Telegram.png" alt="Telegram Call Icon">
+            </a>
+
+            </div>
+            <div class="infoTwo">
+                <a href="#">FAMOUS HOUSINGS</a> 
+                <br>
+           
+           </div>
+        </div>
+    
+    </footer>
 </body>
 </html>

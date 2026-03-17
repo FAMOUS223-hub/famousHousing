@@ -1,0 +1,178 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.heroSection{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+    height: 100vh;
+    background-image: url(/Images/abouthero.JPG);
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2rem;
+}
+
+.heroData{
+    height: auto;
+    background-color: rgba(240, 248, 255, 0);
+    backdrop-filter: blur(05px);
+    padding: 10rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    width: 80%;
+}
+
+.heroData h1{
+    font-size: 5rem;
+}
+
+.heroData h4{
+    font-size: 1.5rem;
+
+}
+
+.heroData p{
+    font-size: 1rem ;
+    margin-bottom: 2rem;
+}
+
+.heroData a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: orange;
+    transition: ease-in-out 0.15s;
+}
+#dataOne a, 
+.visionBorad a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: rgb(235, 152, 0);
+    transition: ease-in-out 0.15s;
+    margin-bottom: 2rem;
+}
+
+.dataOne{
+    background-color: rgb(238, 238, 238);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#dataOne a:hover{
+    background-color: rgb(255, 115, 0);
+}
+.visionBorad a:hover{
+    background-color: rgb(255, 115, 0);
+}
+.heroData a:hover{
+    background-color: rgb(255, 115, 0);
+}
+
+.dataOne h1{
+    color: rgb(255, 174, 0);
+}
+
+.overView{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.profile{
+    width: 80%;
+    display: grid ;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profile h1{
+    font-size: 3rem;
+
+}
+
+.profile p{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.dataTwo{
+    text-align: center;
+}
+
+
+.dataThree{
+    text-align: center;
+}
+#dataOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+}
+.dataOneInfo{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.dataOneInfo h3{
+    font-size: 4rem;
+}
+
+.dataOneInfo p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.dataOneInfo img{
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.visionBorad{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.visionData{
+    width: 80%;
+}
+
+.visionData h3{
+    font-size: 4rem;
+    color: rgb(255, 166, 0);
+}
+
+.visionData p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
