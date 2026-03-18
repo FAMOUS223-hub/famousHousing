@@ -1,2 +1,2 @@
 # myRepo
-My first html and css code
+A mini apartment housing & renting website
