@@ -29,7 +29,7 @@ html{
 .heroSection{
     width: 95%;
     border-radius: 2rem;
-    height: 90vh;
+    height: auto;
     background-image: url(/Images/A3.JPG);
     background-color: rgba(255, 255, 255, 0.753);
     background-blend-mode: overlay;
@@ -73,7 +73,7 @@ html{
 }
 
 .text a{
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(255, 153, 0);
     text-decoration: none;
     padding: 1rem;
     border-radius: 0.5rem;

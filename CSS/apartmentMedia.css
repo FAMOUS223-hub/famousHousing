@@ -46,17 +46,30 @@
     .heroSection{
         height: auto;
     }
+
+    .hero{
+        height: 60vh;
+    }
 }
 
 @media(max-width: 30rem){
     html{
         font-size: 45%;
     }
+    .hero{
+        height: 50vh;
+    }
+
+    
 
 
 }
 @media (max-width: 22.5rem){
     html{
         font-size: 40%;
+    }
+
+    .hero{
+        height: 40vh;
     }
 }

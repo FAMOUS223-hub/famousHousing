@@ -79,6 +79,8 @@
     .card{
         animation:none !important;
     }
+    
+   
 }
 
 @media(max-width: 30rem){
@@ -87,6 +89,10 @@
     }
      .item{
     animation: none !important;
+    }
+     .propertyTypesDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     }
 
 

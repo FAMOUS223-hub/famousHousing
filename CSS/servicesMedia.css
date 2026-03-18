@@ -26,19 +26,40 @@
     .callBtn{
         display: none;
     }
-  
+    .middleDataInfo{
+        grid-template-columns: 1fr;
+        }
+    .bar{
+        border-radius: 2rem;
+    }
 
+     .heroSection{
+        height: 60vh;
+    }
+    
 }
 @media(max-width: 30rem){
     html{
         font-size: 45%;
     }
+    
+     .bar{
+        border-radius: 3rem;
+    }
 
-
+     .heroSection{
+        height: 55vh;
+    }
 }
 @media (max-width: 22.5rem){
     html{
         font-size: 35%;
+    }
+    .bar{
+        border-radius: 2rem;
+    }
+    .heroSection{
+        height: 40vh;
     }
 }
 

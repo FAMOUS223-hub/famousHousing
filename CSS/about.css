@@ -68,8 +68,9 @@ body{
     border-radius: 0.5rem;
     background-color: rgb(235, 152, 0);
     transition: ease-in-out 0.15s;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
+
 
 .dataOne{
     background-color: rgb(238, 238, 238);
@@ -133,7 +134,7 @@ body{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 4rem;
     align-items: center;
 }
 
@@ -147,7 +148,7 @@ body{
 }
 
 .dataOneInfo img{
-    height: 25rem;
+    height: 35rem;
     border-radius: 1rem;
 }
 
