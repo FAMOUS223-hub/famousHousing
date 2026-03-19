@@ -34,7 +34,7 @@ body{
     width: 80%;
 }
 
-.heroData h1{
+.heroData .head{
     font-size: 5rem;
 }
 
@@ -53,9 +53,9 @@ body{
     color: white;
     font-size: 1.3rem;
     cursor: pointer;
-    padding: 0.6rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
-    background-color: orange;
+    background-color: #3882F6;
     transition: ease-in-out 0.15s;
 }
 #dataOne a, 
@@ -66,7 +66,7 @@ body{
     cursor: pointer;
     padding: 0.6rem;
     border-radius: 0.5rem;
-    background-color: rgb(235, 152, 0);
+    background-color:#3882F6;
     transition: ease-in-out 0.15s;
     margin-bottom: 2.5rem;
 }
@@ -78,17 +78,17 @@ body{
     border-radius: 1rem;
 }
 #dataOne a:hover{
-    background-color: rgb(255, 115, 0);
+    background-color: #0448b7;
 }
 .visionBorad a:hover{
-    background-color: rgb(255, 115, 0);
+    background-color: #0448b7;;
 }
 .heroData a:hover{
-    background-color: rgb(255, 115, 0);
+    background-color:#0448b7;;
 }
 
 .dataOne h1{
-    color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
 }
 
 .overView{
@@ -166,7 +166,7 @@ body{
 
 .visionData h3{
     font-size: 4rem;
-    color: rgb(255, 166, 0);
+    color: #3882F6;
 }
 
 .visionData p{

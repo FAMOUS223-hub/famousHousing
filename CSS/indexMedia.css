@@ -79,7 +79,9 @@
     .card{
         animation:none !important;
     }
-    
+    .footerInfo{
+        grid-template-columns: 1fr 1fr;
+    }
    
 }
 

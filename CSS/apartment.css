@@ -53,13 +53,13 @@ html{
     color: white;
     font-size: 1.5rem;
     padding: 1rem;
-    background-color: rgb(255, 115, 0);
+    background-color: #3882F6;
     border-radius: 0.7rem;
     transition: ease-in-out 0.15s;
 }
 
 .heroSection a:hover{
-    background-color: orange;
+    background-color: #003b9b;
 }
 
 .house{
@@ -84,7 +84,7 @@ html{
     width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
     align-content: center;
 }
@@ -93,7 +93,7 @@ html{
     margin-bottom: 0.5rem;
 }
 .houseOne img{
-    height: 28rem;
+    height: 25rem;
     border-radius: 1rem;
 }
 
@@ -102,6 +102,14 @@ html{
     margin-right: 1.2rem;
     margin-bottom: 2rem;
    
+}
+details{
+    font-size: 1.2rem;
+    color: blue;
+}
+
+details p{
+    color: black;
 }
 
 .crossOver{

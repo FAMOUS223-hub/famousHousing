@@ -53,6 +53,10 @@
         gap: 2rem;
     }
 
+     .footerInfo{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 

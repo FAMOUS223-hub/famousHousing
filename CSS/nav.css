@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
     background-color: rgb(255, 255, 255);
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html{
@@ -63,7 +65,7 @@ html{
 }
 
 .navItems ul li a:focus, .navItems ul li a:hover{
-    background-color: orange;
+    background-color: #3882F6;
 } 
 
 .navItems a{
@@ -76,7 +78,7 @@ html{
 }
 
 .navItems ul button{
-    background-color: rgb(255, 145, 0);
+    background-color: #3882F6;
     height: 2.5rem;
     width: 7rem;
     border: none;
@@ -87,13 +89,13 @@ html{
 }
 @keyframes glow{
     0% {
-        box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
     50%{
-        box-shadow: 0 0 20px rgb(255, 166, 0);
+        box-shadow: 0 0 20px rgb(255, 255, 255);
     }
     100%{
-        box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
 
 }
@@ -105,72 +107,103 @@ html{
     background-color: rgb(0, 0, 75);
 }
 
-
-/* FOOTER */
 footer{
-    width: 100%;
-    background-color: white;
-    padding: 1.5rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
 }
+
+.footerDetails{
+    padding: 3rem;
    
+}
 
-.footerLinks .primaryLinks{
+.footerInfo{
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
-.primaryLinks a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
-}
-.primaryLinks a:hover{
-    color: blue;
-}
-
-.primaryLinks h3{
-    font-size: 1.7rem;
-
-}
-
-.footerLinks a{
-    text-decoration: none;
-    margin-right: 1.5rem;
-}
-
-footer .footerLinks{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 2rem;
-}
-
-.infoTwo {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6rem;
     align-items: center;
     align-content: center;
-}
-.infoTwo a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    font-weight: bold;
-    color: blue;
-    
-
+    margin-bottom: 3rem;
 }
 
-.iconsInfo{
+.heading{
+    font-size: 2rem;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
-.footerLinks img{
-    height: 3rem;
+.containerOne a{
+    color: white;
+
 }
+
+.containerOne a:hover{
+    color:#3882F6;
+}
+
+.containerOne p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.525);
+}
+
+.containerTwo ul{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.525);
+}
+
+.containerThree a{
+    color: rgba(255, 255, 255, 0.525);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.containerThree a:hover{
+    color:#3882F6;
+}
+
+.upText{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.525);
+}
+.update input{
+    height: auto;
+    width: fit-content;
+    border: 0.5px solid rgba(255, 255, 255, 0.357);
+    background-color: #283445;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 2rem;
+   
+}
+
+.btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #3882F6;
+    color: white;
+    font-size: 1.2rem;
+    
+    
+    
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    gap: 12rem;
+    color: rgba(255, 255, 255, 0.643);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+

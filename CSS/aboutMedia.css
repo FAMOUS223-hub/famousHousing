@@ -47,6 +47,9 @@
     /* .navItems ul{
         display: none;
     } */
+      .footerInfo{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media(max-width: 30rem){
     html{
