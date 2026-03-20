@@ -64,7 +64,8 @@ html{
     
 }
 
-.navItems ul li a:focus, .navItems ul li a:hover{
+.navItems ul li a:active, 
+.navItems ul li a:hover{
     background-color: #3882F6;
 } 
 
@@ -104,7 +105,7 @@ html{
 }
 
 .navItems ul button:hover{
-    background-color: rgb(0, 0, 75);
+    background-color:#0243ab;
 }
 
 footer{
@@ -144,7 +145,7 @@ footer{
 }
 
 .containerOne a:hover{
-    color:#3882F6;
+    color:#1c59bb;
 }
 
 .containerOne p{
@@ -183,7 +184,16 @@ footer{
     border-radius: 0.5rem;
     color: white;
     margin-bottom: 2rem;
+    margin-right: 1rem;
    
+}
+
+.update a{
+    transition: ease-in-out 0.3s;
+}
+
+.update a:hover{
+    background-color: #0757d8;
 }
 
 .btn{
