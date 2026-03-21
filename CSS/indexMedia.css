@@ -73,8 +73,12 @@
     }
 
     .details{
-        grid-template-columns: 1fr;
+        
+        
+        grid-template-columns: 1fr 1fr;
     }
+
+   
 
     .card{
         animation:none !important;
@@ -92,9 +96,15 @@
      .item{
     animation: none !important;
     }
+
      .propertyTypesDetails{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    }
+
+     .propertyItems{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 
@@ -103,6 +113,7 @@
     html{
         font-size: 30%;
     }
+   
 }
 
 

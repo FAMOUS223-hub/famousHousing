@@ -63,7 +63,9 @@
         height: 50vh;
     }
 
-    
+     .houseOne > img{
+        height: 22rem;
+    }
 
 
 }
@@ -73,6 +75,10 @@
     }
 
     .hero{
-        height: 40vh;
+        height: 55vh;
+    }
+
+    .houseOne > img{
+        height: 22rem;
     }
 }

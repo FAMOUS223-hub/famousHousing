@@ -162,6 +162,7 @@ body{
 }
 .visionData{
     width: 80%;
+    padding: 2rem;
 }
 
 .visionData h3{
@@ -174,6 +175,25 @@ body{
     margin-bottom: 2rem;
 }
 
+.gallery{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.galleryImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.gallery img{
+   flex: 1;
+    height: 30rem;
+    border-radius: 1rem;
+  
+}
 
 
 

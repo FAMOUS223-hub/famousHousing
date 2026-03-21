@@ -23,9 +23,9 @@
     html{
         font-size: 55%;
     }
-    .callBtn{
+    /* .callBtn{
         display: none;
-    }
+    } */
     .middleDataInfo{
         grid-template-columns: 1fr;
         }
@@ -51,7 +51,7 @@
     }
 
      .heroSection{
-        height: 55vh;
+        height: 60vh;
     }
 }
 @media (max-width: 22.5rem){
@@ -62,7 +62,7 @@
         border-radius: 2rem;
     }
     .heroSection{
-        height: 40vh;
+        height: 55vh;
     }
 }
 
