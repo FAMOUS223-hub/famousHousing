@@ -105,6 +105,11 @@
    nav a:hover{
     background-color: white;
    }
+
+    .item{
+        width: 30rem;
+    }
+}
    
 }
 
@@ -125,13 +130,29 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .item{
+        width: 23rem;
+    }
 }
 
 
 
+@media (max-width: 28rem){
+    html{
+        font-size: 40%;
+    }
+     .item{
+        width: 45rem;
+    }
+
+}
+
 @media (max-width: 22.5rem){
     html{
         font-size: 30%;
+    }
+     .item{
+        width: 45rem;
     }
 
 }

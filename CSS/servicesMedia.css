@@ -17,6 +17,9 @@
     html{
         font-size: 64%;
     }
+   
+
+   
 }
 
 @media(max-width: 60rem){
@@ -26,9 +29,7 @@
     /* .callBtn{
         display: none;
     } */
-    .middleDataInfo{
-        grid-template-columns: 1fr;
-        }
+   
     .bar{
         border-radius: 2rem;
     }
@@ -39,6 +40,9 @@
      .footerInfo{
         grid-template-columns: 1fr 1fr;
     }
+
+ 
+
     
 }
 @media(max-width: 30rem){

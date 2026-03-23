@@ -184,32 +184,31 @@ html{
     padding: 4rem;
 }
 
-.middleData{
-   padding: 3rem;
-   display: flex;
-   justify-content: center;
-   align-content: center;
-   align-items: center;
-}
-
-.middleDataInfo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-content: center;
+.middleBody{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.3rem;
-    padding: 4rem;
+    align-content: center;
+    padding: 3rem;
+    background-image: url(/Images/abouthero.webp);
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 50vh;
 }
 
-.action{
-    font-size: 5rem;
-    font-weight: 300;
+.container2{
+    width: 90%;
+}
+.container2 h1{
+    font-size: 6rem;
+   
 }
 
-.middleDataInfo img {
-    height: 25rem;
-    margin-bottom: 2rem;
-    border-radius: 2rem;
+.subText{
+    font-size: 1.5rem;
 }
+
