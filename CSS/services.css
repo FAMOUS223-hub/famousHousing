@@ -184,9 +184,9 @@ html{
     padding: 4rem;
 }
 
-/* .middleData{
-    width: 90%;
-} */
+.middleData{
+   padding: 3rem;
+}
 
 .middleDataInfo{
     display: grid;
