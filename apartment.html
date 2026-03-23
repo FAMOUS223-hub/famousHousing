@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="/CSS/apartmentMedia.css">
 </head>
 <body>
-     <div class="navFill">
-     <nav class="primaryNav">
-        <div class="companyDetails">
-            <img src="/Images/navLogo.png" alt="Famous Housing & Apartment Logo" height="40px">
-            <p>FAMOUS HOUSING</p>
-        </div>
-
-        <div class="navItems">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/pageServices.html">Services</a></li>
-                <button> <a href="#">Book Now</a></button>
-            </ul>
-        </div>
+  <nav>
+        <ul class="sidebar">
+            <li onClick=hideSidebar()><a href="#" ><img src="/Images/close-x-svgrepo-com.svg alt="" height="40px" class="navBtn"></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="pageServices.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile navLogo"><a href="#"><img src="Images/navLogo.png" alt="" height="60px">FAMOUS HOUSING</a></li>
+            <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+            <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+            <li class="hideOnMobile"><a href="pageServices.html">SERVICES</a></li>
+            <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+            <li class="openBar" onClick=showSidebar() ><a href="#"><img src="/Images/hamburger-menu-svgrepo-com.svg" alt="" height="40px"></a></li>
+        </ul>
     </nav>
-    </div>
     <main class="hero">
         <secrion class="heroSection">
             
@@ -139,5 +139,6 @@
 
          
     </footer>
+    <script src="nav.js"></script>
 </body>
 </html>

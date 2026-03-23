@@ -57,6 +57,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
+
 }
 
 
@@ -64,6 +65,7 @@
     html{
         font-size: 45%;
     }
+   
 
 
 }
@@ -71,4 +73,6 @@
     html{
         font-size: 40%;
     }
+
+  
 }
