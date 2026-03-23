@@ -24,6 +24,7 @@ nav{
     background-color: white; /* White nav background */
     height: auto; /* Flexible height for content */
     padding: 1.5rem; /* Inner spacing */
+    height: auto;
 }
 
 /* Navigation list: horizontal flex layout with right alignment */
