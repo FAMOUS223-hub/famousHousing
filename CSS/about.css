@@ -12,7 +12,7 @@ body{
     align-content: center;
     padding: 2rem;
     height: 100vh;
-    background-image: url(/Images/abouthero.JPG);
+    background-image: url(/Images/abouthero.webp);
     background-color: rgba(0, 0, 0, 0.726);
     background-blend-mode: overlay;
     background-position: center;
