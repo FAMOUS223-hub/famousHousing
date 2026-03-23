@@ -132,6 +132,7 @@
     .item{
         width: 23rem;
     }
+  
 }
 
 
@@ -143,12 +144,19 @@
      .item{
         width: 45rem;
     }
+    .niceServiceDetails p{
+        font-size: 2.7rem;
+    }
 
 }
 
 @media (max-width: 22.5rem){
     html{
         font-size: 30%;
+    }
+
+    .niceServiceDetails p{
+        font-size: 2.5rem;
     }
    
 }
