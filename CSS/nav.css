@@ -17,77 +17,77 @@ body{
 
 /* Base font size for responsive rem units */
 html{
-    font-size: 80%; /* Makes 1rem = 12.8px for scalable sizing */
+    font-size: 80%; 
     overflow-x: hidden;
 }
 
 /* Navigation bar: horizontal layout with white background */
 nav{
-    background-color: white; /* White nav background */
-    height: auto; /* Flexible height for content */
-    padding: 1.5rem; /* Inner spacing */
+    background-color: white; 
+    height: auto;
+    padding: 1.5rem; 
     height: auto;
 }
 
 /* Navigation list: horizontal flex layout with right alignment */
 nav ul{
-    width: 100%; /* Full width */
-    display: flex; /* Horizontal layout */
-    justify-content: flex-end; /* Align items to the right */
-    align-items: flex-end; /* Align vertically at bottom */
-    padding: 1rem; /* Inner padding */
+    width: 100%; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    padding: 1rem;
     
 }
 
-/* Logo styling: larger, bolder text */
+
 .navLogo{
-    font-size: 2.5rem; /* Large text */
-    font-weight: 900; /* Heavy weight */
+    font-size: 2.5rem; 
+    font-weight: 900; 
     
 }
 
-/* Navigation list items */
+
 nav li{
-    height: 5rem; /* Fixed height for consistent spacing */
+    height: 5rem; 
 }
 
 /* Navigation links: flex container for icon+text alignment */
 nav a{
-    height: 100%; /* Fill parent height */
-    padding: 0 30px; /* Horizontal padding on left/right */
-    display: flex; /* Flexbox for content alignment */
-    justify-content: flex-start; /* Align content left */
-    align-items: center; /* Center vertically */
-    color: rgb(0, 0, 0); /* Black text */
-    font-weight: 500; /* Medium font weight */
-   font-size: 1.5rem; /* Readable size */
+    height: 100%;
+    padding: 0 30px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+   font-size: 1.5rem;
 }
 
 /* Navigation link hover state: subtle background change */
 nav a:hover{
-    background-color: rgba(0, 0, 0, 0.228); /* Slight dark overlay */
-    border-radius: 0.5rem; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.228);
+    border-radius: 0.5rem;
 }
 
 /* Make first nav item push other items to the right */
 nav li:first-child{
-    margin-right: auto; /* Take up leftover horizontal space */
+    margin-right: auto;
 }
 
 /* Mobile sidebar: fixed position overlay menu */
 .sidebar{
-    position: fixed; /* Overlay the page */
-    top: 0; /* Stick to top */
-    right: 0; /* Stick to right edge */
-    width: 250px; /* Narrow sidebar width */
-    height: auto; /* Flexible height */
-    background-color: rgba(255, 255, 255, 0.498); /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* Frosted glass effect */
-    display: none; /* Hidden by default */
-    justify-content: flex-start; /* Align items to top */
-    align-items: flex-start; /* Stack vertically */
-    flex-direction: column; /* Vertical orientation */
-    z-index: 999; /* On top of other content */
+    position: fixed; 
+    top: 0;
+    right: 0; 
+    width: 250px; 
+    height: auto; 
+    background-color: rgba(255, 255, 255, 0.498); 
+    backdrop-filter: blur(10px);
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+    z-index: 999;
     
 }
 .navBtn{

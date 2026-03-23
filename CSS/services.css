@@ -8,7 +8,7 @@ html{
 }
 
 .heroSection{
-    background-image: url(/Images/servicehero.webp);
+    background-image: url(/images/servicehero.webp);
     background-color: rgba(0, 0, 0, 0.473);
     background-blend-mode: overlay;
     background-position: center;
@@ -190,7 +190,7 @@ html{
     align-items: center;
     align-content: center;
     padding: 3rem;
-    background-image: url(/Images/abouthero.webp);
+    background-image: url(/images/abouthero.webp);
     background-color: rgba(0, 0, 0, 0.521);
     background-blend-mode: overlay;
     background-position: center;
