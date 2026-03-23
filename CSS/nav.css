@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    overflow: hidden;
 }
 
 /* Set body background and typography for the entire site */
